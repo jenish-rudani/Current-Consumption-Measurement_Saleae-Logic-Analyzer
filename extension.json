@@ -3,7 +3,7 @@
   "apiVersion": "1.0.0",
   "author": "Jenish Rudani",
   "version": "1.0.0",
-  "description": "An extension for Saleae Logic Analyser that determines the area under curve of an analog voltage measurement against 16.5 Ohm resistor to determine average current consumption",
+  "description": "An extension for Saleae Logic Analyser that determines the area under curve of an analog voltage measurement against 18 Ohm resistor to determine average current consumption",
   "extensions": {
     "Average Current Consumption": {
       "type": "AnalogMeasurement",
@@ -11,7 +11,7 @@
       "metrics": {
         "Iavg": {
           "name": "Current",
-          "notation": "I<sub>avg</sub>(V<sub>avg</sub>/16.5)",
+          "notation": "I<sub>avg</sub>(V<sub>avg</sub>/18)",
           "units": "A"
         },
         "Vavg": {
@@ -21,7 +21,7 @@
         },
         "Imax": {
           "name": "Current",
-          "notation": "I<sub>max</sub>(V<sub>max</sub>/16.5)",
+          "notation": "I<sub>max</sub>(V<sub>max</sub>/18)",
           "units": "A"
         },
         "Vmax": {
