@@ -25,9 +25,9 @@ class Current(AnalogMeasurer):
     def measure(self):
         data = np.concatenate(self.batches)
         averageVoltage = np.mean(data)
-        averageCurrent = averageVoltage / 16.5
+        averageCurrent = averageVoltage / 18
         maxVoltage = np.amax(data)
-        maxCurrent = maxVoltage / 16.5
+        maxCurrent = maxVoltage / 18
         return {"Iavg" : round(averageCurrent,6),
                 "Vavg": round(averageVoltage,6),
                 "Vmax" : round(maxVoltage,6),
